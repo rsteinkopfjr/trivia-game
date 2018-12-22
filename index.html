@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Disney Trivia Game
+    </title>
+
+    <link rel="stylesheet" href="assets/css/reset.css" media="screen">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/waltograph" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" media="screen">
+    <script rel="text/javascript" src="assets/javascript/app.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1>Disney Trivia</h1>
+                <div class="text-center">
+                    <button type="button" class="btn btn-dark btn-lg" id="start-btn">Start</button>
+                </div>
+                <!-- questions and answers -->
+                <div class="text-center" id="question-answer-form">
+                    <div id="current-question"></div>
+                    <div id="time-left"></div>
+                    <div class="trivia-question"></div>
+                    <div class="trivia-answers"></div>
+                </div>
+                <!-- answer page -->
+                <div class="text-center" id="answer">
+                    <div id="answer-message"></div>
+                    <div id="right-answer"></div>
+                    <div id="gif"></div>
+                </div>
+                <!-- final page -->
+                <div class="text-center" id="scoreboard">
+                    <div id="final-message"></div>
+                    <div id="correct-answers"></div>
+                    <div id="incorrect-answers"></div>
+                    <div id="unanswered"></div>
+                </div>
+                <div class="text-center">
+                    <button type="button" class="btn btn-dark btn-lg" id="play-again-btn">Play Again</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
