@@ -1,6 +1,6 @@
 body {
     background: url("../images/cloudy-day.png");
-    font-family: 'WaltographRegular', 'Sans serif'; 
+    font-family: 'Sans serif'; 
     font-weight: normal; 
     font-style: normal;
     padding-top: 2vw;
@@ -8,6 +8,7 @@ body {
 h1 {
     text-align: center;
     font-size: 8vw;
+    font-family: 'WaltographRegular', 'Sans serif';
 }
 button {
     margin-top: 3vw;
@@ -18,4 +19,7 @@ button {
 
 #play-again-btn {
     display: none;
+}
+.trivia-answers {
+    font-size: 2vw;
 }
